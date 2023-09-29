@@ -1,0 +1,71 @@
+
+.listData{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    gap: 10px;
+
+}
+#textMessage{
+    font-size: 1.5em ;
+    font-family: sans-serif;
+    color: white;
+}
+.buttonSet{
+    background-color: rgb(219, 40, 40);  
+    width: 70px;
+    height: 30px;  
+    border-radius: 7px;
+}
+.buttonSet:hover{
+  size: 2px;
+  background-color:red;  
+}
+.EmptyButton{
+     background-color: rgb(23, 181, 243);
+     color: white;
+    font-size: 1.1em;
+     margin-bottom: 1em;
+     font-weight: 400;
+     border-radius: 7px; 
+}
+.EmptyButton:hover{
+  background-color:rgb(187, 23, 23);
+  font-weight: 500; 
+}
+.CountNumber{
+  font-size: 1.5em;
+  width: 40%;
+  font-weight: bold;
+  
+}
+.Headname{
+  font-weight: bold !important;
+  font-size: 1.5em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: none;
+  }
+
+  .hrSet{
+    width: 100%;
+    border : solid black;
+    border-width: thin;
+    margin-top:-6px!important;
+    margin-left: -1% ;
+    margin-right: auto;
+    
+  }
+  td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
